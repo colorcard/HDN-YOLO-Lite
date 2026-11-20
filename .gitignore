@@ -1,0 +1,19 @@
+# Datasets and run outputs
+data/
+datasets/
+runs/
+weights/
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Logs and IDE files
+*.log
+.idea/
+.vscode/
+.DS_Store

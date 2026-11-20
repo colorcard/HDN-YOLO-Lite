@@ -1,0 +1,24 @@
+# Dataset configuration for HDN-YOLO-Lite.
+#
+# The dataset is not included in this repository.
+# Prepare a standard YOLO detection dataset and update `path`.
+#
+# Expected layout:
+#   <path>/images/{train,val,test}/*.jpg
+#   <path>/labels/{train,val,test}/*.txt
+#
+# Class order used in the paper:
+#   0: BPD
+#   1: TD (TED + TSD)
+#   2: PLD
+
+path: /path/to/dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names:
+  0: BPD
+  1: TD
+  2: PLD
